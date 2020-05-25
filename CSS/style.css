@@ -4,16 +4,14 @@
     border-bottom: 1px solid #947c54;
 }
 #bottomheader{
-   
-}
-.ih-item{
-    max-width: 100%;
+    width: 100%;
+    background-color: #0f2453;
 }
 .btn-custom{
     background-color: white;
     color:#967A50; 
     border-radius: 2 2 2 2;
-}
+} 
 .carousel-item{
     height: 650px;
 } 
@@ -31,7 +29,7 @@
     text-transform: uppercase;
     overflow: hidden;
     line-height: 2.25rem;
-    letter-spacing: .15em;
+    letter-spacing: .15em
 
 }
 #bottomheader ul li a:hover{
@@ -57,15 +55,11 @@ a,p{
 .main-color{
     background-color: white;
 }
-
-.navbar{
-    height: 80px;
-}
-
 .container-fluid{
-    padding-left: 0%;
-    padding-right: 0%;
+    width: 100%;
 }
+
+
 .bottom-footer{
     color:#947c54; 
     border-top: 1px solid #947c54;
@@ -125,4 +119,53 @@ hr{
     border: 0;
     height: 3px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(148, 124, 84), rgba(212, 194, 160, 0));
+}
+
+
+.home-newsletter .btn{
+    height: 50px;
+    border-radius: 0 20px 20px 0;
+    background-color: #947c54;
+    color: #fff;
+}
+
+.home-newsletter .form-control {
+	height: 50px;
+	border-color: transparent;
+	border-radius: 20px 0 0 20px;
+}
+
+
+.our-goal h1{
+color:#0f2453;
+}
+
+.our-goal h5{
+color: rgb(78, 72, 72);
+font-weight: 0.5rem;
+}
+
+
+.our-goal hr{
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(15,36,83), rgba(212, 194, 160, 0));
+}
+
+.b{
+    font-size: 20px;
+    font-style: bold;
+    color: #0f2453;
+}
+.b:active{
+    color: #947c54;
+
+}
+.b:link{
+    color: #947c54;
+}
+
+.line hr{
+height: 2px;
+background-image: linear-gradient(to right,  rgba(148, 124, 84),rgba(212, 194, 160, 0));
 }
