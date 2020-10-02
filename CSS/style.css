@@ -32,6 +32,9 @@
     letter-spacing: .15em
 
 }
+.ih-item{
+    max-width:100%;
+}
 #bottomheader ul li a:hover{
     color: #947c54;
     font-weight: 10px;
@@ -45,7 +48,7 @@
 }
 a,p{
     color: white; 
-    font-weight: 0.87rem;
+    font-weight: 1rem;
 }
 
 .dropdown-menu a:hover{
@@ -55,18 +58,12 @@ a,p{
 .main-color{
     background-color: white;
 }
-.container-fluid{
-    width: 100%;
-}
-
 
 .bottom-footer{
     color:#947c54; 
     border-top: 1px solid #947c54;
 }
-.our-partners{
-    
-}
+
 .paradise-travels {
     margin-top: 40px;
     margin-bottom: 60px;
@@ -169,3 +166,89 @@ font-weight: 0.5rem;
 height: 2px;
 background-image: linear-gradient(to right,  rgba(148, 124, 84),rgba(212, 194, 160, 0));
 }
+
+.pard1 h1{
+    margin-top: 90px;
+    margin-bottom: 60px;
+    font-weight: 5rem;
+    font-size: 50px;
+    color: #0f2453;
+    letter-spacing: 0.89rem;
+    text-align: center;
+}
+.linked  a{
+font-size: 1.15rem;    
+}
+.linked a:hover{
+    font-size:1.3rem ;
+    color: #947c54;
+    border-bottom: 5px solid color transparent;
+    text-decoration: rgba(148, 124, 84);
+}
+.underline li > a{
+    text-decoration: none;
+
+}
+.underline li > a:hover{
+    color:#947c54
+
+}
+.underline li > a::before{
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 2px;
+    bottom: 0;
+    left: 15%;
+    right: 15%;
+    background-color: #947c54;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+
+}
+
+
+.underline li > a:hover::before{
+    visibility: visible;
+  transform: scaleX(1);
+}
+
+
+.underline-1> a{
+    text-decoration: none;
+
+}
+.underline-1 > a:hover{
+    color:#947c54
+
+}
+.underline-1 > a::before{
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 2px;
+    bottom:0;
+    left:15%;
+    right:15%; 
+    background-color: #947c54;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+
+}
+
+
+.underline-1 > a:hover::before{
+    visibility: visible;
+  transform: scaleX(1);
+}
+
+
+
+
+.linked-1 a:hover{
+        color: #947c54;
+        border-bottom: 5px solid color transparent;
+        text-decoration: rgba(148, 124, 84);
+    }

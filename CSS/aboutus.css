@@ -1,3 +1,7 @@
+#topheader{
+    background-color:#0f2453; 
+    border-bottom: 1px solid #947c54;
+}
 h1,h2,h3,h4,h5,h6{
     color:#947c54;
     padding-top: 1px;
@@ -6,43 +10,41 @@ p{
     font-weight: 1rem;
     font-size: large;
 }
-hr{
-    height: 2px;
-    background-image: linear-gradient(to right,  rgba(148, 124, 84),rgba(212, 194, 160, 0));
- }
-
-.bottom-footer{
-    color:#947c54; 
-    border-top: 1px solid #947c54;
+.card{
+    background-color: #0f2453; 
+    color:#947c54;
+    border:1px solid #0f2453;
 }
 #bottomheader{
     width: 100%;
     background-color: #0f2453;
 }
-
-#topheader{
-    background-color:#0f2453; 
-    border-bottom: 1px solid #947c54;
-}
-
 .btn-custom{
     background-color: white;
-    color:#967A50; 
+    color:#947c54; 
     border-radius: 2 2 2 2;
-}
+} 
 
 .bottom-footer{
     background-color: #0f2453;
 }
+p{
+    font-weight: 1rem;
+    font-size: large;
+}
+hr{
+    height: 2px;
+    background-image: linear-gradient(to right,  rgba(148, 124, 84),rgba(212, 194, 160, 0));
+ }
 #bottomheader ul li a{
-    font-weight: 500;
+ font-weight: 500;
     font-size: 1.125rem;
     display: block;
     position: relative;
     text-transform: uppercase;
     overflow: hidden;
     line-height: 2.25rem;
-    letter-spacing: .15em;
+    letter-spacing: .15em
 
 }
 #bottomheader ul li a:hover{
@@ -51,14 +53,15 @@ hr{
     border-radius: 0.4rem;
 }
 .nav-item{
-    background-color: #0f2453;
+    color:#947c54;
+    background-color: #0f2453   ;
 }
 .dropdown-menu{
     background-color: #0f2453;
 }
 a,p{
     color: white; 
-    font-weight: 0.87rem;
+    font-weight: 1rem;
 }
 
 .dropdown-menu a:hover{
@@ -72,6 +75,8 @@ a,p{
     border-top: 1px solid #947c54;
 }
 
+
+
 .b{
     font-size: 20px;
     font-style: bold;
@@ -83,6 +88,11 @@ a,p{
 }
 .b:link{
     color: #947c54;
+}
+
+.line hr{
+height: 2px;
+background-image: linear-gradient(to right,  rgba(148, 124, 84),rgba(212, 194, 160, 0));
 }
 
 .linked  a{
@@ -99,7 +109,8 @@ a,p{
     
     }
     .underline li > a:hover{
-        color:#947c54;
+        color:#947c54
+    
     }
     .underline li > a::before{
         content: "";
@@ -128,7 +139,7 @@ a,p{
     
     }
     .underline-1 > a:hover{
-        color:#947c54;
+        color:#947c54
     
     }
     .underline-1 > a::before{
@@ -150,4 +161,8 @@ a,p{
     .underline-1 > a:hover::before{
         visibility: visible;
       transform: scaleX(1);
-}
+    }
+
+    .card{
+        border-color: #947c54;
+    }
