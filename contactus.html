@@ -11,58 +11,100 @@
     <link rel="stylesheet" href="CSS/contactus.css">
     <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css">
   </head>
-  <body style="background-color:#0f2453">
+  <body>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="JS/jquery-3.5.1.slim.min.js"></script>
     <script src="JS/bootstrap.min.js"></script>
     <script src="JS/popper.min.js"></script>
- 
-    <header>
-      <div class="p-1 expand-md"id="topheader">    <!-- START : TOP PART OF CONTAINER Ph.No AND Mail -->  
-        <div class="container text-right"> 
-          <div class="row">
-            <div class="col-12">
-              <a class="pr-1" href="tel: 8200773482"><i class="fas fa-phone-alt pr-1"></i>+91-8200773482</a>
-              <a class="pr-1" href="mailto: harshmalviya352@gmail.com"><i class="fas fa-at pr-1"></i>harshmalviya352@gmail.com</a>
+    <script>
+      function validate(){
+          var name=document.getElementById("fullname").value;
+          var country=document.getElementById("country").value;
+          var num=document.getElementById("number").value;
+          var email=document.getElementById("email").value;
+          var sub=document.getElementById("subject").value;
+          var msg=document.getElementById("msg").value;
+          if(name==""){
+            alert("Please enter full name");
+            return false;
+          }
+          if(country==""){
+            alert("Please enter counrty name");
+            return false;
+          }
+          if(email.indexof('@')<=0||email==""){
+            alert("Please enter valid email");
+            return false; 
+          }
+          if(number==""){
+            alert("Please enter a valid number");
+            return false;
+          }
+          if(msg.length()<4){
+            alert("Your message should contain atleast 4 characters.");
+            return false;
+          }
+          if(subject.length()<=3){
+            alert("Your subject should contain atleast 4 characters.");
+            return false;
+          }
+          alert("We will reach to you as soon as possible.");
+          return true;
+      }
+    </script>
+        <style>
+          .dropdown:hover>.dropdown-menu{
+            display: block;
+          } 
+        </style>
+        
+        
+        <header style="background-color: #0f2453;">
+          <div class="p-1 expand-md linked-1"id="topheader">    <!-- START : TOP PART OF CONTAINER Ph.No AND Mail -->  
+            <div class="container text-right"> 
+              <div class="row">
+                <div class="col-12">
+                  <a class="pr-1" href="tel: 8200773482"><i class="fas fa-phone-alt pr-1"></i>+91-82007XXXXX</a>
+                  <a class="pr-1" href="mailto: harshmalviya352@gmail.com"><i class="fas fa-at pr-1"></i>contactus@paradistravels.com</a>
+                </div>
+              </div>
+            </div>
+          </div>                                       <!-- END : TOP PART OF CONTAINER Ph.No AND Mail   --> 
+          <div id="bottomheader">
+            <div class="container-fluid";>
+              <nav class="navbar navbar-expand-md" style="background-color:#0f2453;">
+                <a class="navbar-brand" href="homepage.html">
+                  <img src="Images/LOGO/paradiseTravelse1.jpg" width="100px" alt="">
+                </a>
+                <button style="color: #947c54;" class="navbar-toggler" data-target="#navdata" data-toggle="collapse" type="button">
+                  <span><i class="fas fa-plane-departure"></i></span>
+                </button>
+                <div id="navdata" class="collapse navbar-collapse">
+                  <ul class="navbar-nav underline">
+                    <li class="nav-item"><a class="nav-link active" href="homepage.html">Home</a></li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" type="button" href="#">Tour Packages</a>
+                      <div class="dropdown-menu underline-1 text-center" aria-labelledby="dropdowndata">
+                        <a class="dropdown-item" href="bali.html" style="color: #f4f4f4;">BALI</a>
+                        <a class="dropdown-item" href="goa.html" style="color: #f4f4f4;">GOA</a>
+                        <a class="dropdown-item" href="maldives.html" style="color: #f4f4f4;">MALDIVES</a>
+                      </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html">About US</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html">Contact US</a></li>
+                  </ul>
+                </div>
+              </nav>
             </div>
           </div>
-        </div>
-      </div>                                       <!-- END : TOP PART OF CONTAINER Ph.No AND Mail   --> 
-      
-      <div id="bottomheader">
-        <div class="container-fluid">
-          <nav class="navbar navbar-expand-md navbar-dark">
-            <button class="navbar-toggler" data-target="#navdata" data-toggle="collapse" type="button">
-              <span><i class="fas fa-plane-departure"></i></span>
-            </button>
-            <div id="navdata" class="collapse navbar-collapse">
-              <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="homepage.html">Home</a></li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" type="button" href="#">Tour Packages</a>
-                  <div class="dropdown-menu" aria-labelledby="dropdowndata">
-                    <a class="dropdown-item" href="#">Rajasthan</a>
-                    <a class="dropdown-item" href="#">Kashmir</a>
-                    <a class="dropdown-item" href="#">Goa</a>
-                    <a class="dropdown-item" href="#">Sikkim</a>
-                  </div>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="#">About US</a></li>
-                <li class="nav-item"><a class="nav-link active" href="contactus.html">Contact US</a></li>
-              </ul> 
-              <span class="ml-auto navbar-text"></span>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </header>
+        </header>
     
     <section class="breadcrumb-section pt-1">
-        <div class="container p-1-md-expad">
+        <div class="container p-1-md-expad pt-1">
             <div class="row">
                 <div class="col-12">
-                    <h2>Contact US</h2>
+                    <h1 style="color:#0f2453">Contact US</h1><hr>
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item" href="homepage.html">Home</li>
                         <li class="breadcrumb-item active">Contact US</li>
@@ -72,49 +114,41 @@
         </div>
     </section>
     
-    <section class="pt-1 custom">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <p>Whether You have a question about features,trails,pricing or anything else,our team is ready to answer all the questions
-                        You can Message us via Email or Mobile.
-                    </p>
-                    <hr/>
-                </div>
-            </div>
-        </div>
-    </section>
+   
     
-    <section class="form-section">
-        <div class="container">
+    <section class="form-section" style="background-color: #0f2453;">
+
+        <div class="container pt-5 pb-1">
             <div class="row">    
                 <div class="col-md-6 custom1">
-                    <br/>
-                    <form action="">
+                  <h1>SEND PACKAGE INQUIRY</h1>
+                  <hr/>
+                  <p>For great itinerary, Customised packages, Group bookings or any other queries, please submit inquiry.</p>
+                    <form action="" onsubmit="return validate()">
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                                <input type="text" class="form-control" placeholder="Full Name ">
+                                <input type="text" class="form-control" placeholder="Full Name " id="fullname">
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="email" class="form-control" placeholder="Email Address ">
+                                <input type="email" class="form-control" placeholder="Email Address " id="email">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                                <input type="number" class="form-control" placeholder="Phone Number ">
+                                <input type="number" class="form-control" placeholder="Phone Number " id="number">
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="text" class="form-control" placeholder="Country ">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group col-md-12">
-                                <input type="text" class="form-control" placeholder="Subject ">
+                                <input type="text" class="form-control" placeholder="Country " id="country">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-12">
-                                <textarea class="form-control" placeholder="Message " rows="5"></textarea>
+                                <input type="text" class="form-control" placeholder="Subject " id="subject">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <textarea class="form-control" placeholder="Message " rows="5" id="msg"></textarea>
                             </div>
                         </div>
                         <div class="form-row">
@@ -127,24 +161,28 @@
     
                 <div class="col-md-6">
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col-12 linked-1">
                             <h2>Call US/Whatsapp</h2>
+                            <hr>
                             <p>
-                                <a class="pr-1" href="tel: 8200773482"><i class="fas fa-phone-alt pr-1"></i>(+91)-8200773482</a>
+                                <a class="pr-1" href="tel: 82007XXXXX"><i class="fas fa-phone-alt pr-1"></i>(+91)-8200773482</a>
                             </p>
                         </div>
-                        <div class="col-12">
+                        <div class="col-12 linked-1">
                             <h2>Email</h2>
+                            <hr>
                             <p>
-                                <a class="pr-1" href="mailto: harshmalviya352@gmail.com"><i class="fas fa-at pr-1"></i>harshmalviya352@gamil.com</a>
+                                <a class="pr-1" href="mailto: contactus@paradisetravels.com"><i class="fas fa-at pr-1"></i>harshmalviya352@gamil.com</a>
                             </p>
                         </div>
                         <div class="col-12">
                             <h4>Working Hours</h4>
+                            <hr>
                             <p>Mon - Fri | 09-00 AM - 09-00 PM (IST)</p>
                         </div>
                         <div class="col-12">
                             <h4>Address</h4>
+                            <hr>
                                 <p>Sardar Vallabhbhai Patel National Institute of Technology,Surat</p>
                         </div>
                     </div>
@@ -159,45 +197,53 @@
         </div>
     </section>
     
-    <footer>
-      <div class="full-footer">
-        <div class="container top-footer p-md-3 p-1"><!--Top footer started-->
+ 
+    <footer style="background-color: #0f2453;" class="abc">
+      <div class="full-footer pt-5">
+        <div class="container-fluid top-footer p-md-3 p-1"><!--Top footer started-->
           <div class="row">
-            <div class="col-md-4 px-4">
-              <!--INSERT LOGO OF TRAVELS HERE-->
+            <div class="col-md-3">
+              <a href="homepage.html">
+              <img class="img-fluid" src="Images/LOGO/paradiseTravelse1.jpg" style="width: auto; height:auto; "></a>
+            </div>
+            <div class="col-md-3 px-4 linked ">
               <p>Our tourism offers affordable packages for everyone and are highly rated and very ...
-                <a href="#">Read more</a>
+                <a href="aboutus.html">Read more</a>
               </p> 
-              <a style="color: silver;" class="p-1  m-2" href="#"><i class="fab fa-2x fa-facebook-square"></i></a>
-              <a style="color: silver;" class="p-1 m-2" href="#"><i class="fab fa-2x fa-google-plus-square"></i></a>
-              <a style="color: silver;" class="p-1 m-2" href="#"><i class="fab fa-2x fa-twitter-square"></i></a>
-              <a style="color: silver;" class="p-1 m-2" href="#"><i class="fab fa-2x fa-instagram"></i></a>  
+              <a style="color: #947c54;" class="p-1  m-2" href="https://www.facebook.com/"><i class="fab fa-2x fa-facebook-square"></i></a>
+              <a style="color: #947c54;" class="p-1 m-2" href="https://myaccount.google.com/"><i class="fab fa-2x fa-google-plus-square"></i></a>
+              <a style="color: #947c54;" class="p-1 m-2" href="https://twitter.com/explore"><i class="fab fa-2x fa-twitter-square"></i></a>
+              <a style="color: #947c54;" class="p-1 m-2" href="https://www.instagram.com/accounts/login/"><i class="fab fa-2x fa-instagram"></i></a>  
             </div>
-            <div class="col-md-4 px-4">
+            <div class="col-md-3 px-4 line linked ">
               <h3>Quick Links</h3>
-                <a href="#">Privacy Policy</a><br>
-                <a href="#">Home </a><br>
-                <a href="#">About Us </a><br>
-                <a href="#">Contact Us</a> 
+              <hr style="width: 100%;">
+                <a href="aboutus.html">Privacy Policy</a><br>
+                <a href="homepage.html">Home </a><br>
+                <a href="aboutus.html">About Us </a><br>
+                <a href="contactus.html">Contact Us</a> 
             </div>
-            <div class="col-md-4 px-4">
+            <div class="col-md-3 px-4 line linked">
               <h3>Contact Us</h3>
-                <a href="#"><i class="fas fa-phone"></i> +(91) 8200773482  </a><br>
-                <a href="#"><i class="fas fa-envelope"></i> harshmalviya352@gmail.com  </a><br>  
-                <iframe class="embeded-responsive-item pt-1 pl-1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.677469933256!2d72.78203521444972!3d21.165230085924573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04dec8b56fdf3%3A0x423b99085d26d1f9!2sSardar%20Vallabhbhai%20National%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1589910130825!5m2!1sen!2sin" frameborder="0" style="border:0;"></iframe>
+              <hr style="width: 100%;">
+                <a href="#"><i class="fas fa-phone"></i> +(91) 82007XXXXX  </a><br>
+                <a href="#"><i class="fas fa-envelope"></i> contactus@paradistravels.com  </a><br>  
+                <iframe class="embeded-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.677469933256!2d72.78203521444972!3d21.165230085924573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04dec8b56fdf3%3A0x423b99085d26d1f9!2sSardar%20Vallabhbhai%20National%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1589910130825!5m2!1sen!2sin" frameborder="0" style="border:0;"></iframe>
             </div>
+            
           </div>
 
         </div><!--top footer ended-->
         <div class="container-fluid bottom-footer pt-2"><!--Bottom footer started-->
           <div class="row">
-            <div class="col-12 text-center" style="color:wheat">
+            <div class="col-12 text-center" style="background-color: #0f2453">
               <p>Copyrights © 2020 - All rights reserved</p>
             </div>
           </div>
         </div><!--Bottom footer ended-->
       </div>
     </footer>
+
   
   
   </body>

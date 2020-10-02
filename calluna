@@ -1,0 +1,192 @@
+font-weight: 500;
+    font-size: 1.125rem;
+    display: block;
+    position: relative;
+    text-transform: uppercase;
+    overflow: hidden;
+    line-height: 2.25rem;
+    letter-spacing: .15em
+
+    font-weight: 1.3rem;
+ margin:  = 10rem;
+
+
+color = #0f2453;
+color = #947c54;
+
+ color: #444;
+    background-color: #fff;
+
+
+  
+<section class="pt-md-5 pt-3">  <!--START: PACKAGES--> 
+  <div class="container-fluid py-5">
+    <div class="row">
+      <div class="col-lg-7  text-left " style="left:2%;">
+        <h5>Pahalgam is a tourist town and a notified area committee in Anantnag district of the Indian union territory<br>
+         of Jammu and Kashmir. It is a popular tourist destination and hill station. Its lush green meadows and pristine <br> 
+         waters attract thousands of tourists from all over the world each year.</h5>
+         <h5>Pahalgam is a tourist town and a notified area committee in Anantnag district of the Indian union territory<br>
+          of Jammu and Kashmir. It is a popular tourist destination and hill station. Its lush green meadows and pristine <br> 
+          waters attract thousands of tourists from all over the world each year.</h5> 
+          
+         <h5>Pahalgam is a tourist town and a notified area committee in Anantnag district of the Indian union territory<br>
+          of Jammu and Kashmir. It is a popular tourist destination and hill station. Its lush green meadows and pristine <br> 
+          waters attract thousands of tourists from all over the world each year.</h5>
+      </div>
+      <div class="col-lg-5 text-right" style="right: 5%;">
+        <img class="pl-3 image-fluid" src="Images/LOCATIONS/kashmir2.jpg" style="height: 300px; width: 500px; right 20%;">
+      </div>
+    </div>    
+  
+  
+  </div>
+  <hr width="58%">
+  <div class="contaner-fluid py-5">
+    <div class="row">
+      <div class="col-lg-5 pl-5">
+        <img src="Images/LOCATIONS/Caravela-Beach-Resort.jpg" style="height: 350px; width: 500px ;" alt="">
+      </div>
+      <div style="right: 2%;" class="col-lg-7  text-left pl-md-1 pl-5">
+        <h5>
+          Goa is a state in western India with coastlines stretching along the Arabian Sea. Its long history as a Portuguese<br>
+           colony prior to 1961 is evident in its preserved 17th-century churches and the area’s tropical spice plantations.<br>
+            Goa is also known for its beaches, ranging from popular stretches at Baga and Palolem to those in laid-back fishing<br>
+             villages such as Agonda.
+        </h5>
+        <h5>
+          Goa is a state in western India with coastlines stretching along the Arabian Sea. Its long history as a Portuguese<br>
+           colony prior to 1961 is evident in its preserved 17th-century churches and the area’s tropical spice plantations.<br>
+            Goa is also known for its beaches, ranging from popular stretches at Baga and Palolem to those in laid-back fishing<br>
+             villages such as Agonda.
+        </h5>
+        <h5>
+          Goa is a state in western India with coastlines stretching along the Arabian Sea. Its long history as a Portuguese<br>
+           colony prior to 1961 is evident in its preserved 17th-century churches and the area’s tropical spice plantations.<br>
+            
+        </h5>
+      </div>
+    </div>
+  </div>
+  <hr width="58%">
+  <div class="container-fluid py-5">
+    <div class="row">
+      <div class="col-lg-7 text-left " style="left:2%;">
+        <h5>Pahalgam is a tourist town and a notified area committee in Anantnag district of the Indian union territory<br>
+         of Jammu and Kashmir. It is a popular tourist destination and hill station. Its lush green meadows and pristine <br> 
+         waters attract thousands of tourists from all over the world each year.</h5>
+         <h5>Pahalgam is a tourist town and a notified area committee in Anantnag district of the Indian union territory<br>
+          of Jammu and Kashmir. It is a popular tourist destination and hill station. Its lush green meadows and pristine <br> 
+          waters attract thousands of tourists from all over the world each year.</h5> 
+          
+         <h5>Pahalgam is a tourist town and a notified area committee in Anantnag district of the Indian union territory<br>
+          of Jammu and Kashmir. It is a popular tourist destination and hill station. Its lush green meadows and pristine <br> 
+          waters attract thousands of tourists from all over the world each year.</h5>
+      </div>
+      <div class="col-lg-5 text-right" style="right: 5%;">
+        <img class="pl-3 image-fluid" src="Images/LOCATIONS/kashmir2.jpg" style="height: 300px; width: 500px; right 20%;">
+      </div>
+    </div>    
+  </div>
+  <hr width="58%">
+  <div class="contaner-fluid py-5">
+    <div class="row">
+      <div class="col-lg-5 pl-5">
+        <img src="Images/LOCATIONS/Caravela-Beach-Resort.jpg" style="height: 350px; width: 500px ;" alt="">
+      </div>
+      <div style="right: 2%;" class="col-lg-7  text-left pl-md-1 pl-5">
+        <h5>
+          Goa is a state in western India with coastlines stretching along the Arabian Sea. Its long history as a Portuguese<br>
+           colony prior to 1961 is evident in its preserved 17th-century churches and the area’s tropical spice plantations.<br>
+            Goa is also known for its beaches, ranging from popular stretches at Baga and Palolem to those in laid-back fishing<br>
+             villages such as Agonda.
+        </h5>
+        <h5>
+          Goa is a state in western India with coastlines stretching along the Arabian Sea. Its long history as a Portuguese<br>
+           colony prior to 1961 is evident in its preserved 17th-century churches and the area’s tropical spice plantations.<br>
+            Goa is also known for its beaches, ranging from popular stretches at Baga and Palolem to those in laid-back fishing<br>
+             villages such as Agonda.
+        </h5>
+        <h5>
+          Goa is a state in western India with coastlines stretching along the Arabian Sea. Its long history as a Portuguese<br>
+           colony prior to 1961 is evident in its preserved 17th-century churches and the area’s tropical spice plantations.<br>
+            
+        </h5>
+      </div>
+    </div>
+  </div>
+  <hr width="58%">
+  
+
+</section> <!--END: PACKAGES-->
+
+
+
+
+
+
+
+
+    <section class="pt-3 pb-4" style="background-color: ;"> <!--START : WHY CHOOSE US--> 
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h3>
+              Lot of travel companies in the town. Why choose us? 
+            </h3>
+            <hr width="58%">
+          </div>
+        </div>
+        <div class="row" style="background-color: ;">
+          <div class="col-md-4 text-center">
+            <img class = "image-fluid " style="width: 150px; height: 150px;" src="Images/Why  us/food.jpg" >
+            <h5>High quality food</h5> 
+          </div>
+          <div class="col-md-4 text-center">
+            <img class = "image-fluid" style="width: width: 150px; height: 150px;" src="Images/Why  us/dinner.png" >
+            <h5>Comfortable journey</h5>  
+          </div>
+          <div class="col-md-4 text-center">
+            <img class = "image-fluid pt-2" style="width: 150px; height: 150px;" src="Images/Why  us/lose.png" >
+            <h5>Value of Money</h5>
+          </div>
+          <div class="col-md-4 text-center">
+            <img class = "image-fluid pr-5" style="width: 150px; height: 150px;" src="Images/Why  us/guide.png" >
+            <h5>Local Travel Guide</h5> 
+          </div>
+          <div class="col-md-4 text-center">
+            <img class = "image-fluid" style="width: 150px; height: 150px;" src="Images/Why  us/Hotel.jpg" >
+            <h5>5 Star Hotels</h5>  
+          </div>
+          <div class="col-md-4 text-center">
+            <img class = "image-fluid pt-2" style="width: 150px; height: 150px;" src="Images/Why  us/support.png" >
+            <h5>Customer Support</h5>
+          </div>
+        </div>
+      </div>
+    </section><!--END : WHY CHOOSE US-->
+
+
+
+
+    <section>  <!--START : SECTION OF CLIENTS-->
+      <div class="container-fluid our-partners">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h3>Our partners</h3>  
+          <hr width = 58%>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-lg-2 col-6"><img class = "image-fluid pt-4 pl-3" style="width: 200px;" src="Images/Clients/1200px-Radisson_Blu_logo.svg.png"></div>
+          <div class="col-lg-2 col-6"><img class = "image-fluid pl-3" style="width: 200px;" src="Images/Clients/air-india-vector-logo.png"></div>
+          <div class="col-lg-2 col-6"><img class = "image-fluid pl-3" style="width: 200px;" src="Images/Clients/DoubleTree_by_Hilton_Logo_Q1_2011.jpg"></div>
+          <div class="col-lg-2 col-6"><img class = "image-fluid pl-3" style="width: 165px;" src="Images/Clients/Emirates_logo.png"></div>
+          <div class="col-lg-2 col-6"><img class = "image-fluid pl-3" style="width: 160px;" src="Images/Clients/Marriott_Logo.png"></div>
+          <div class="col-lg-2 col-6"><img class = "image-fluid pl-3 pr-5" style="width: 250px  ;" src="Images/Clients/gujarat-tourism-logo-png-8-Transparent-Images.png"></div>
+        </div>
+      </div>
+    </section> <!--END : SECTION OF CLIENTS-->>
+    
+
